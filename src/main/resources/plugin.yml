@@ -1,0 +1,4 @@
+name: AdminCheckPass
+version: '${project.version}'
+main: l1ratch.admincheckpass.AdminCheckPass
+api-version: '1.19'

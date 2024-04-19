@@ -1,0 +1,26 @@
+# Конфигурация для плагина AdminPasswordPlugin
+
+# Секретный ключ для установки пароля
+secretKey: "yourSecretKey"
+
+# Команда для бана администратора после неправильного ввода пароля
+banCommand: "ban %player% You have reached maximum login attempts."
+
+# Максимальное количество попыток ввода пароля
+maxAttempts: 3
+
+# Настройки сообщений
+messages:
+  usageSetPas: "&cUsage: /setpas <password> <secretKey>"
+  secretKeyMismatch: "&cYou must provide the secret key to set password for others from console."
+  passwordSet: "&aPassword set for %nickname%."
+  errorSettingPassword: "&cAn error occurred while setting the password."
+  usagePas: "&cUsage: /pas <nickname> <password>"
+  passwordAccepted: "&aPassword accepted."
+  incorrectPassword: "&cIncorrect password."
+  attemptsLeft: "&cYou have %attempts% attempts left."
+  setPasswordFirst: "&cYou need to set a password first using /setpas command."
+  welcomeNoPassword: "&aWelcome, admin. You need to set a password first using /setpas command."
+  welcomeEnterPassword: "&aWelcome, admin. Please enter your password using /pas command."
+  maxLoginAttempts: "&cYou have reached maximum login attempts."
+  regenerateKey: "&aNew secret key generated: %newSecretKey%"
